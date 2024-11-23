@@ -6,30 +6,52 @@ Este script de bash revisa si una USB especifica (no puede ser cualquier usb) ti
 
 **entrar a sudo visudo y copiar estos comandos**
 
-@includedir /etc/sudoers.d
-suusuario ALL=(ALL) NOPASSWD: /home/suusuario/scriptP.sh
-suusuario ALL=(ALL) NOPASSWD: /bin/rm, /bin/systemctl
-suusuario ALL=(ALL) NOPASSWD: /usr/bin/tee
-suusuario ALL=(ALL) NOPASSWD: /bin/systemctl start apache2
-www-data ALL=(ALL) NOPASSWD: /usr/lib/cgi-bin/scriptP.sh
-www-data ALL=(ALL) NOPASSWD: /var/www/html/parcial/scriptP.sh
-suusuario ALL=(ALL) NOPASSWD:ALL
-www-data ALL=(ALL) NOPASSWD: ALL
-www-data ALL=(ALL) NOPASSWD: /bin/mkdir /home/suusuario/*, /bin/rmdir /home/suusuario/*, /bin/rm -rf /home/suusuario/*
-www-data ALL=(ALL) NOPASSWD: /usr/lib/cgi-bin/scriptP-sh
-suusuario ALL=(ALL) NOPASSWD: /home/suusuario/scriptP.sh
-suusuario ALL=(ALL) NOPASSWD: /bin/rm, /bin/systemctl
-suusuario ALL=(ALL) NOPASSWD: /usr/bin/tee
-suusuario ALL=(ALL) NOPASSWD: /bin/systemctl start apache2
-www-data ALL=(ALL) NOPASSWD: /usr/lib/cgi-bin/scriptP.sh
-www-data ALL=(ALL) NOPASSWD: /var/www/html/parcial/scriptP.sh
-www-data ALL=(ALL) NOPASSWD: ALL
-www-data ALL=(ALL) NOPASSWD: /bin/mkdir /home/suusuario/*, /bin/rmdir /home/suusuario/*, /bin/rm -rf /home/suusuario/*
-www-data ALL=(ALL) NOPASSWD: /usr/lib/cgi-bin/scriptP-sh
-suusuario ALL=(ALL) NOPASSWD: /home/suusuario/spik.sh
-www-data ALL=(ALL) NOPASSWD: /home/suusuario/spik.sh
-www-data ALL=(ALL) NOPASSWD: /usr/bin/xdg-open
-suusuario ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop apache2
+
+- suusuario ALL=(ALL) NOPASSWD: /home/suusuario/scriptP.sh
+
+- suusuario ALL=(ALL) NOPASSWD: /bin/rm, /bin/systemctl
+
+- suusuario ALL=(ALL) NOPASSWD: /usr/bin/tee
+
+- suusuario ALL=(ALL) NOPASSWD: /bin/systemctl start apache2
+
+- www-data ALL=(ALL) NOPASSWD: /usr/lib/cgi-bin/scriptP.sh
+
+- www-data ALL=(ALL) NOPASSWD: /var/www/html/parcial/scriptP.sh
+
+- suusuario ALL=(ALL) NOPASSWD:ALL
+
+- www-data ALL=(ALL) NOPASSWD: ALL
+
+- www-data ALL=(ALL) NOPASSWD: /bin/mkdir /home/suusuario/*, /bin/rmdir /home/suusuario/*, /bin/rm -rf /home/suusuario/*
+
+- www-data ALL=(ALL) NOPASSWD: /usr/lib/cgi-bin/scriptP-sh
+
+- suusuario ALL=(ALL) NOPASSWD: /home/suusuario/scriptP.sh
+
+- suusuario ALL=(ALL) NOPASSWD: /bin/rm, /bin/systemctl
+
+- suusuario ALL=(ALL) NOPASSWD: /usr/bin/tee
+
+- suusuario ALL=(ALL) NOPASSWD: /bin/systemctl start apache2
+
+- www-data ALL=(ALL) NOPASSWD: /usr/lib/cgi-bin/scriptP.sh
+
+- www-data ALL=(ALL) NOPASSWD: /var/www/html/parcial/scriptP.sh
+
+- www-data ALL=(ALL) NOPASSWD: ALL
+
+- www-data ALL=(ALL) NOPASSWD: /bin/mkdir /home/suusuario/*, /bin/rmdir /home/suusuario/*, /bin/rm -rf /home/suusuario/*
+
+- www-data ALL=(ALL) NOPASSWD: /usr/lib/cgi-bin/scriptP-sh
+
+- suusuario ALL=(ALL) NOPASSWD: /home/suusuario/spik.sh
+
+- www-data ALL=(ALL) NOPASSWD: /home/suusuario/spik.sh
+
+- www-data ALL=(ALL) NOPASSWD: /usr/bin/xdg-open
+
+- suusuario ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop apache2
 
 
 **BASRC**
